@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            height:100px;
+            width:100px;
+            color:white;
+            font-size: 50px;
+            background-color:black;
+            border:1px solid white;
+        }
+        tbody
+        {
+            height:600px;
+            width:600px;
+        }
+        .row
+        {
+            height:100px;
+            width:300px;
+            border:1px solid black;
+            display:flex;
+        }
+        body{
+            padding:200px;
+            background:linear-gradient(90deg,blue,white,white,white,white,yellow);
+        }
+        #para
+        {
+            color:green;
+        }
+        #heading
+        {
+            color:black;
+        }
+    </style>
+</head>
+<body>
+    <script src="script.js"></script>
+    <center><h1 id="heading">TIC-TAC-TOE GAME</h1></center>
+    <center><h1 id="para"></h1></center>
+    <center><div class="tbody">
+        <div class="row">
+            <button id="r11" onclick="fun(1)"></button>
+            <button id="r12" onclick="fun(2)"></button>
+            <button id="r13" onclick="fun(3)"></button>
+        </div>
+        <div class="row">
+            <button id="r21" onclick="fun(4)"></button>
+            <button id="r22" onclick="fun(5)"></button>
+            <button id="r23" onclick="fun(6)"></button>
+        </div>
+        <div class="row">
+            <button id="r31" onclick="fun(7)"></button>
+            <button id="r32" onclick="fun(8)"></button>
+            <button id="r33" onclick="fun(9)"></button>
+        </div>
+    </div></center>
+</body>
+</html>
